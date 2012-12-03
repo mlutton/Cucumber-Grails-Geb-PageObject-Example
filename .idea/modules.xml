@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Amazon-Example/Amazon-Example.iml" filepath="$PROJECT_DIR$/Amazon-Example/Amazon-Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Amazon-Example/Amazon-Example-grailsPlugins.iml" filepath="$PROJECT_DIR$/Amazon-Example/Amazon-Example-grailsPlugins.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cucumber-Grails-Geb-PageObject-Example.iml" filepath="$PROJECT_DIR$/Cucumber-Grails-Geb-PageObject-Example.iml" />
     </modules>
   </component>

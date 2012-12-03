@@ -31,10 +31,16 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
     }
+
+    def gebVersion = "0.7.2"
+    def seleniumVersion = "2.25.0"
+
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         // runtime 'mysql:mysql-connector-java:5.1.20'
+        test ("org.codehaus.geb:geb-junit4:$gebVersion")
+        test ("org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion")
     }
 
     plugins {
@@ -52,5 +58,8 @@ grails.project.dependency.resolution = {
         runtime ":database-migration:1.1"
 
         compile ':cache:1.0.0'
+
+        test ":geb:$gebVersion"
+        test ":cucumber:0.6.2"
     }
 }
